@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'student/php-ci-project',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'name' => 'ivan25984/php-ci-demo',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'b39a798e9e09bbbae853bdcad7b796ea5cc7e576',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,13 +11,22 @@
     ),
     'versions' => array(
         'doctrine/instantiator' => array(
-            'pretty_version' => '2.1.0',
-            'version' => '2.1.0.0',
-            'reference' => '23da848e1a2308728fe5fdddabf4be17ff9720c7',
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'reference' => 'c6222283fa3f4ac679f8b9ced9a4e23f163e80d0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/instantiator',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'ivan25984/php-ci-demo' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'b39a798e9e09bbbae853bdcad7b796ea5cc7e576',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'myclabs/deep-copy' => array(
             'pretty_version' => '1.13.4',
@@ -101,9 +110,9 @@
             'dev_requirement' => true,
         ),
         'phpunit/phpunit' => array(
-            'pretty_version' => '9.6.31',
-            'version' => '9.6.31.0',
-            'reference' => '945d0b7f346a084ce5549e95289962972c4272e5',
+            'pretty_version' => '9.5.28',
+            'version' => '9.5.28.0',
+            'reference' => '954ca3113a03bf780d22f07bf055d883ee04b65e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
@@ -252,15 +261,6 @@
             'install_path' => __DIR__ . '/../sebastian/version',
             'aliases' => array(),
             'dev_requirement' => true,
-        ),
-        'student/php-ci-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
-            'type' => 'project',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
         ),
         'theseer/tokenizer' => array(
             'pretty_version' => '1.3.1',
